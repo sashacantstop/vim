@@ -60,13 +60,6 @@ let maplocalleader = "/"
 "------------------------------------------------------------------------------------------------------------
 
 " Setup vim-plug
-"call plug#begin('~/.vim/plugged')
-"  Plug 'mattn/emmet-vim'
-"  Plug 'preservim/nerdtree'
-"  Plug 'godlygeek/tabular'
-"  Plug 'preservim/vim-markdown'
-"  Plug 'flazz/vim-colorschemes'
-"call plug#end()
-
-" Use colorscheme plugin
-"colorscheme monokain
+" call plug#begin(~/.vum/pluggged)
+"   plugins here
+" call plug#end()
