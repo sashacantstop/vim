@@ -14,6 +14,7 @@ set encoding=utf8
 " View
 syntax on
 set nowrap
+set showmatch
 
 " Show line numbers
 set number
@@ -22,6 +23,7 @@ set relativenumber
 " Tabs and Indents 
 set tabstop=2
 set shiftwidth=2
+set softtabstop=2
 set expandtab
 set autoindent
 set smartindent
@@ -53,13 +55,8 @@ set wildmode=longest,list,full
 
 " Leaders
 let mapleader=" "
-let maplocalleader = "/"
+let maplocalleader = " "
+nnoremap <leader>cd :Ex<CR>
 
-"------------------------------------------------------------------------------------------------------------
-" PLUGINS BY VIM-PLUGS
-"------------------------------------------------------------------------------------------------------------
-
-" Setup vim-plug
-" call plug#begin(~/.vum/pluggged)
-"   plugins here
-" call plug#end()
+" Others 
+set backspace=indent,eol,start
