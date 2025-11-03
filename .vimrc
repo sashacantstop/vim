@@ -1,10 +1,9 @@
-"------------------------------------------------------------------------------------------------------------
-" .VIMRC : 2025-09-01 : 12:49AM : SASHA FAYE 
-"------------------------------------------------------------------------------------------------------------
+"----------------------------------------------------------------------------------------" .VIMRC : 2025-09-01 : 12:49AM : SASHA FAYE 
+"----------------------------------------------------------------------------------------
 
-"------------------------------------------------------------------------------------------------------------
-" CONFIGS
-"------------------------------------------------------------------------------------------------------------
+"----------------------------------------------------------------------------------------" CONFIGS
+"----------------------------------------------------------------------------------------
+"
 
 " Filesystem stuff
 filetype plugin indent on
@@ -21,15 +20,14 @@ set number
 set relativenumber
 
 " Tabs and Indents 
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 set autoindent
 set smartindent
 
 " Mouse and Cursor
-set mouse=a
 highlight CursorLine guibg=#333333 ctermbg=darkgrey
 
 " Enable incremental search and smart case search
@@ -39,7 +37,7 @@ set smartcase
 
 " Storage
 set nobackup
-set history=500
+set history=5000
 set noswapfile
 
 " Autocomplete
